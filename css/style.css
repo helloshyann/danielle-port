@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Leckerli+One&display=swap');
+
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Leckerli One', cursive;
+}
+
+body {
+    font-family: 'Baloo 2', cursive;
+}
+
+.bold {
+    font-weight: 900;
+    font-size: larger;
+}
+
+.header{
+    
+    background-color: #b9a5e1; 
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgb(132, 52, 236) 90%)
+
+}
+
+.header-card {
+    background-color: #b9a5e1;
+}
+
+@media only screen and (min-width: 992px) {
+    .header{
+        background-image: url("/img/DanielleWestLarge.png");
+        min-height: 480px;
+    }
+  
+}
+
+@media only screen and (min-width: 576px) and (max-width:991px) {
+    .header {
+        background-image: url("/img/DaniellWestSmall.png");
+    }
+}
