@@ -2,9 +2,10 @@
     text-decoration: none;
 }
 
-.hoverCard a:visited {
+.hoverCard a:visited, a:link {
     color: var(--dark);
 }
+
 
 .hoverCard a:hover {
     cursor: pointer;
